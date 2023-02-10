@@ -1,18 +1,22 @@
 /*
- * Macro for Natalia
+ * Macro for quanitifcation fo TOLLES:YPet reporter
  * Kind of based on methods in Katayama et al., 2020.
  *																					
- * Expected input is a/some multi-series containing z-stacks with two channels																					
+ * Expected Input
+ * The expected input for this script are z-stack non-timelapse 2 channel images in ND2 format
+ * 
+ * Workflow
  * Each series is opened in turn and user is directed to pick a z-slice to use for analysis
  * User then directed to draw ROIs from which background intensity is measured and subtracted from images for further processing
- * Ratio images are then created and area is measured based on various thresholds on the ratio images.
- * 																
- * 																					Written by Laura Murphy
- * 																					IGC Advanced Imaging Resource
- * 																					August 2021
- *																					
- *																					Altered Simon Wilkinson October 2021										
- */
+ * Ratio images are then created and area is measured based on various thresholds on the ratio images. 
+ *
+ * Installation Notes 
+ * Download FIJI here - https://imagej.net/software/fiji/downloads                                                      
+ * How to use an ImageJ macro from Github - https://github.com/IGC-Advanced-Imaging-Resource/ImageJ_Macros
+ *  
+ * Written by Laura Murphy (laura.murphy@ed.ac.uk). August 2021
+ * Updated by Simon Wilkonson. October 2021                                                                                                                                                                                                                                                                                                                          
+*/
 
  
 //--------------------------------//-----------------------------------------------------------------------------------
